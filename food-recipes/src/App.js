@@ -21,14 +21,19 @@ export const App = () => {
     const getData = async () => {
         if (query !== "") {
             const result = await Axios.get(url);
-    
-            setRecipes(result.data.hits);
-    
-            console.log(result);
-            setQuery("");
+            if (result.data.more) {
+                setRecipes(result.data.hits);
+        
+                console.log(result);
+                setAlert("");
+                setQuery("");
+            }
+            else{
+                return setAlert("Food doesn't exist");
+            }
         }
         else{
-            setAlert('Please input this field.');
+            setAlert("Please input this field.");
         }
     }
 
