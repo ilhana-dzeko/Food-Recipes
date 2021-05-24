@@ -47,8 +47,10 @@ export const App = () => {
     };
 
     return (
-        <div>
-            <h1 className="App">Food Searching App</h1>
+        <div className="App">
+            <div className="rectangle">            
+            <h1 className="title">COMIDALY</h1>
+            </div>
             <form className="search-form" onSubmit={onSubmitBtn}>
                 {alert!=="" && <Alert alert={alert}/>}
                 <input type="text" placeholder="Search Food" autoComplete="off" onChange={onChangeContent} value={query}></input>
