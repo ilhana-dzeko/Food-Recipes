@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
 
-* {
+/* * {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   padding: 0;
@@ -35,7 +35,7 @@ opacity: 0.6;
 }
 /* Rectangle 1 */
 .rectangle{
-  position: absolute;
+  position: absoulte;
   width: 962.24px;
   height: 537.46px;
   left: -376px;
@@ -61,7 +61,7 @@ font-size: 80px;
 line-height: 104px;
 
 color: #4E4E4D;
-}
+} 
 
 /* h1 {
   font-size: 8rem;
@@ -72,7 +72,7 @@ color: #4E4E4D;
   text-transform: uppercase;
   margin: 4rem 0;
 } */
-
+/* 
 .search-form {
   position: absolute;
 width: 496px;
@@ -91,7 +91,7 @@ top: 709px;
 
 background: url('./images/search.png');
 opacity: 0.9;
-}
+} */ 
 /* .alert {
   position: absolute;
   top: -3rem;
@@ -118,7 +118,7 @@ opacity: 0.9;
   border-radius: 0.5rem;
   height: 3rem;
 } */
-
+/* 
 .search-form input[type="text"] {
   position: absolute;
 width: 389.36px;
@@ -223,4 +223,4 @@ opacity: 0.9;
 .ingredient-weight {
   color: #40b48e;
   font-size: 1.3rem;
-}
+} */
