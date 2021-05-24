@@ -48,13 +48,14 @@ export const App = () => {
 
     return (
         <div className="App">
+            <img src="" alt=""></img>
             <div className="rectangle">            
             <h1 className="title">COMIDALY</h1>
             </div>
             <form className="search-form" onSubmit={onSubmitBtn}>
                 {alert!=="" && <Alert alert={alert}/>}
-                <input type="text" placeholder="Search Food" autoComplete="off" onChange={onChangeContent} value={query}></input>
-                <input type="submit" value="search"></input>
+                <input type="text" placeholder="What to cook today?" autoComplete="off" onChange={onChangeContent} value={query}></input>
+                <input type="submit" value=""></input>
             </form>
 
             <div className="recipes">
