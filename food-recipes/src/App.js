@@ -48,8 +48,9 @@ export const App = () => {
 
     return (
         <div className="App">
-            <img src="" alt=""></img>
+            <div className="main"></div>            
             <div className="rectangle"></div>    
+
             <h1 className="title">COMIDALY</h1>
             
             <form className="search-form" onSubmit={onSubmitBtn}>
@@ -63,6 +64,7 @@ export const App = () => {
                     <Recipe key={uuidv4()} 
                     recipe={recipe} />)}
             </div>
+            
         </div>
     );
 };
