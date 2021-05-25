@@ -53,12 +53,13 @@ export const App = () => {
 
             <h1 className="title">COMIDALY</h1>
             
+            <div className="search-box">
             <form className="search-form" onSubmit={onSubmitBtn}>
                 {alert!=="" && <Alert alert={alert}/>}
                 <input type="text" placeholder="What to cook today?" autoComplete="off" onChange={onChangeContent} value={query}></input>
                 <input type="submit" value=""></input>
             </form>
-
+            </div>
             <div className="recipes">
                 {recipes !== [] && recipes.map(recipe =>
                     <Recipe key={uuidv4()} 
