@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700&display=swap");
 
-/* * {
+* {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   padding: 0;
@@ -14,15 +14,16 @@ html {
 }
 
 .App {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
-  width: 1440px;
-  height: 1024px;
-  background: #FAFBED;
+  align-items: center; */
+  /* position: relative;
+  width: 1034px;
+  height: 1024px; */
+  background: red;
 }
 
+/*
 img{
   position: absolute;
 width: 100%;
@@ -33,13 +34,14 @@ top: 0px;
 background: url('./images/food-bck.jpg');
 opacity: 0.6;
 }
+
 /* Rectangle 1 */
 .rectangle{
-  position: absoulte;
+  position: relative;
   width: 962.24px;
   height: 537.46px;
   left: -376px;
-  top: 194.28px;
+  top: -201px;
 
   background: #FCFBF1;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -51,7 +53,7 @@ opacity: 0.6;
   position: absolute;
 width: 536px;
 height: 114px;
-left: 38px;
+left: 35px;
 top: 31px;
 
 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
