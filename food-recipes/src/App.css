@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+
 * {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: 'Varela';
   margin: 0;
   padding: 0;
   text-decoration: none;
@@ -13,17 +14,12 @@ html {
   width: 100%;
   height: 100%;
 }
+
 body, #root, .App{
   width: 100%;
   height: 100%;
 }
 .main {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-  /* position: relative;
-  width: 1034px;
-  height: 1024px; */
   width: 100%;
   height: 100%;
   background-image: url('./images/food-bck.jpg');
@@ -105,19 +101,10 @@ border-radius: 6px;
   font-size: 1.8rem;
   color: #FCFBF1;
   font-weight: 400;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
 }
 
-/* .search-form input {
-  font-size: 1.6rem;
-  border: none;
-  border-bottom: 0.1rem solid #ccc;
-  margin: 0 0.5rem;
-  border-radius: 0.5rem;
-  height: 3rem;
-}  */
- 
 .search-form input[type="text"] {
   position: absolute;
 width: 389.36px;
@@ -151,7 +138,7 @@ background: url('./images/search.png');
 } 
 
 .results{
-    background: #FCFBF1;
+    background: #F1F1E0;
 }
 .results .results-title{
   position: relative;
@@ -187,11 +174,11 @@ background: url('./images/search.png');
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .recipe h2 {
-  background-color: rgba(161, 161, 161, 0.7);
+  background-color: rgba(196, 196, 196, 0.8);
   position: absolute;
   width: 97%;
   padding: 5px;
-  bottom: 6.5rem;
+  bottom: 6.7rem;
   /* text-shadow: 0 0.5rem 0.5rem #555; */
   font-family: Varela;
   font-style: normal;
@@ -252,3 +239,34 @@ color: #FCFBF1;
   color: #40b48e;
   font-size: 1.3rem;
 } */
+
+@media screen and (max-width: 600px){
+  
+  .rectangle{
+    position: absolute;
+    background: #F1F1E0;
+    left: 0;
+    top: -300px;
+    transform: rotate(0);
+  }
+
+  .title{
+    position: absolute;  
+  width: 360px;
+  height: 95px;
+  padding-left: 15px;
+  font-size: 55px;
+  line-height: 80px;
+  
+  } 
+  .subtitle{
+  padding-left: 10px;
+  height: 20px;
+  
+  font-size: 20px;
+  line-height: 15px;
+  
+  color: #2F2F2F;
+  
+  }
+}

@@ -52,14 +52,14 @@ export const App = () => {
             <div className="rectangle"></div>    
 
             <h1 className="title">COMIDALY</h1>
-            <h3 className="subtitle">Favourite recipes In one place</h3>
+            <h2 className="subtitle">Favourite recipes In one place</h2>
             <form className="search-form" onSubmit={onSubmitBtn}>
                 {alert!=="" && <Alert alert={alert}/>}
                 <input type="text" placeholder="What to cook today?" autoComplete="off" onChange={onChangeContent} value={query}></input>
-                <input type="submit" value=""></input>
+                <input type="submit" value="" ></input>
             </form>
 
-    <div className="results">
+    <div className="results" id="results">
         <h2 className="results-title">Results</h2>
             <div className="recipes">
                 {recipes !== [] && recipes.map(recipe =>
