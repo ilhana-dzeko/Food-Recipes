@@ -7,11 +7,13 @@ const Recipe = ({recipe}) => {
 
     return (
         <div className="recipe">
-            <h2>{label}</h2>
+            
             <img src={image} alt={label}></img>
-            <a href={url} target="_blank" rel="noopener noreferrer">See more</a>
-            <button onClick={() => setShow(!show)}>Ingredients</button>
+            <h2>{label}</h2>
+            
+            <h3 onClick={() => setShow(!show)}>All Ingredients</h3>
             {show && <RecipeDetails ingredients={ingredients}/>}
+            <a href={url} target="_blank" rel="noopener noreferrer">Check it Out</a>
         </div>
     );
 };

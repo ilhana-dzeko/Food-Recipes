@@ -59,6 +59,8 @@ export const App = () => {
                 <input type="submit" value=""></input>
             </form>
 
+    <div className="results">
+        <h2 className="results-title">Results</h2>
             <div className="recipes">
                 {recipes !== [] && recipes.map(recipe =>
                     <Recipe key={uuidv4()} 
@@ -66,6 +68,7 @@ export const App = () => {
             </div>
             
         </div>
+    </div>
     );
 };
 
