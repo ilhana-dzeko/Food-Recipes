@@ -213,19 +213,19 @@ text-align: left;
 padding: 8px;
 width: 140px;
 left: 6px;
-
+cursor: pointer;
 border-bottom: 1px solid #FCFBF1;
 color: #FCFBF1;
 }
 
-/*
+
 .ingredient-list {
   margin-top: 1rem;
   background-color: #f0f0f0;
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
-
+/*
 .ingredient-list li {
   margin: 0.5rem 0;
 }
@@ -240,7 +240,7 @@ color: #FCFBF1;
   font-size: 1.3rem;
 } */
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 850px){
   
   .rectangle{
     position: absolute;
@@ -267,6 +267,5 @@ color: #FCFBF1;
   line-height: 15px;
   
   color: #2F2F2F;
-  
   }
 }
