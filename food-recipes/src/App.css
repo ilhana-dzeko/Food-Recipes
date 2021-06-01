@@ -216,26 +216,29 @@ border-bottom: 1px solid #FCFBF1;
 color: #FCFBF1;
 }
 
-
 .ingredient-list {
-  margin-top: 1rem;
-  background-color: #f0f0f0;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
+  
+  position: absolute;
+  z-index: 999;
+  background-color: #F1F1E0;
+  opacity: 0.9;
+  top: 0;
+  width: 100%;
 }
 
 .ingredient-list li {
-  margin: 0.5rem 0;
-}
+  margin: 5px;
+} 
 
 .ingredient-text {
-  font-size: 1.5rem;
-  color: #888;
+  font-size: 16px;
+  color: #2F2F2F;
+  text-transform: uppercase;
 }
 
 .ingredient-weight {
-  color: #40b48e;
-  font-size: 1.3rem;
+  color: #363636;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 850px){
