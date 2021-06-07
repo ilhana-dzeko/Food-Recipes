@@ -46,7 +46,7 @@ body, #root, .App{
   height: 114px;
   left: 35px;
   top: 31px;
-  /* font-family: Varela; */
+  
   font-style: normal;
   font-weight: normal;
   font-size: 75px;
@@ -60,7 +60,6 @@ body, #root, .App{
   height: 50px;
   left: 13px;
   top: 165px;
-  /* font-family: Varela; */
   
   font-style: normal;
   font-weight: normal;
