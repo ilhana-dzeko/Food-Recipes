@@ -6,6 +6,8 @@ import Recipe from './components/Recipe';
 import Alert from './components/Alert';
 
 export const App = () => {
+    //query - piece of data that should be updated
+    //setQuery - method to do it
     const [query, setQuery] = useState("");
     const [recipes, setRecipes] = useState([]);
     const [alert, setAlert] = useState("");
@@ -15,8 +17,6 @@ export const App = () => {
 
     const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
-    //query - piece of data that should be updated
-    //setQuery - method to do it
 
     const getData = async () => {
         if (query !== "") {
